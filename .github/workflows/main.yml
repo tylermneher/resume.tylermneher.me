@@ -1,0 +1,12 @@
+name: Render Resume
+on: push
+jobs:
+  updateCv:
+    runs-on: ubuntu-latest
+    container: node:18
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install
+      - run: npx resumed render resume.json --theme kendall
+      - run: mkdir public
+      - run: mv resume.html public/index.html
