@@ -9,5 +9,11 @@ jobs:
       - uses: actions/checkout@v3
       - run: npm install
       - run: npx resumed render resume.json --theme kendall
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: Show GitHub Actions logo
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          add: resume.html
       - run: mkdir public
       - run: mv resume.html public/index.html
