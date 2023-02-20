@@ -1,9 +1,10 @@
 name: Render Resume
 on: push
 jobs:
-  updateCv:
+  RenderResume:
     runs-on: ubuntu-latest
-    container: node:18
+    container:
+      image: node:18.x
     steps:
       - uses: actions/checkout@v3
       - run: npm install
