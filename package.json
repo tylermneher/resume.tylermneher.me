@@ -28,6 +28,7 @@
     "resumed": "^3.0.1"
   },
   "dependencies": {
+    "node": "^19.6.1",
     "puppeteer": "^19.7.3",
     "resume-schema": "^1.0.0"
   }
