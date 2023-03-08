@@ -4,8 +4,10 @@
   "description": "tylermneher-resume-gh",
   "main": "index.js",
   "scripts": {
-    "test": "resumed validate",
-    "start": "resumed render --theme jsonresume-theme-kendall --output index.html"
+    "resume:test": "resume validate",
+    "resume:start": "resume export --theme jsonresume-theme-kendall --format html",
+    "resumed:test": "resumed validate",
+    "resumed:start": "resumed render --theme jsonresume-theme-kendall --output index.html"
   },
   "repository": {
     "type": "git",
