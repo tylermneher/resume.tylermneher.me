@@ -1,8 +1,32 @@
 {
-  "dependencies": {
+  "name": "tylermneher-resume-gh",
+  "version": "1.0.0",
+  "description": "tylermneher-resume-gh",
+  "main": "index.js",
+  "scripts": {
+    "test": "resumed validate",
+    "start": "resumed render --theme jsonresume-theme-kendall --output index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylermneher/tylermneher-resume-gh.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "tylermneher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylermneher/tylermneher-resume-gh/issues"
+  },
+  "homepage": "https://github.com/tylermneher/tylermneher-resume-gh#readme",
+  "devDependencies": {
     "jsonresume-theme-kendall": "^0.2.0",
-    "jsonresume-theme-even": "^0.17.1",
-    "jsonresume-theme-mooser": "^0.2.3",
-    "resumed": "^1.0.3"
+    "resume-cli": "^3.0.8",
+    "resumed": "^3.0.1"
+  },
+  "dependencies": {
+    "puppeteer": "^19.7.3",
+    "resume-schema": "^1.0.0"
   }
 }

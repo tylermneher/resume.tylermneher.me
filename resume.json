@@ -1,210 +1,204 @@
 {
-"meta": {
-"theme": "kendall"
-},
-"basics": {
-"name": "Tyler M. Neher",
-"label": "Data Scientist and Cybersecurity Professional",
-"email": "tyler@neherdata.com",
-"photo": "https://github.com/tylermneher.png",
-"phone": "732-275-5997",
-"url": "https://www.tylermneher.me/",
-"summary": "Cybersecurity professional with a background in data science and software development.",
-"location": {
-"address": "106 Secretariat Ct",
-"postalCode": "NJ 07724",
-"city": "Tinton Falls",
-"countryCode": "US",
-"region": "New Jersey"
-},
-"profiles": [
-{
-"network": "LinkedIn",
-"username": "tylermneher",
-"url": "https://www.linkedin.com/in/tylermneher/"
-},
-{
-"network": "GitHub",
-"username": "tylermneher",
-"url": "https://github.com/tylermneher"
-},
-{
-"network": "Instagram",
-"username": "tylermneher",
-"url": "https://www.instagram.com/tylermneher/"
-},
-{
-"network": "Facebook",
-"username": "tylermneher",
-"url": "https://www.facebook.com/tylermneher/"
-}
-]
-},
-"work": [
-{
-"name": "Neher Data Systems",
-"position": "Owner",
-"url": "https://www.neherdata.com",
-"startDate": "2021-01-14",
-"summary": "Providers of bespoke and customized technology solutions for B2C, B2B, and B2B clients and customers. Multi-jurisdiction and SAM Federally verified contractor of data science, cybersecurity, database engineering, and software development consulting services and solutions. Enterprise inteegrators and MSPs for multiple leading SaaS, PaaS, and IDaaS offerings."
-},
-{
-"name": "AT&T, Inc.",
-"position": "Senior Cybersecurity",
-"url": "https://www.att.com",
-"startDate": "2021-06-14",
-"endDate": "2022-11-01",
-"summary": "Responsible for cyber security areas across products, services, infrastructure, networks, and/or applications while providing protection for AT&T, its customers and its vendors/partners. Works with senior team members on various projects relating to the protection of devices, customers, assets, data, information technology, and networks. Supports innovation, strategic planning, technical proof of concepts, testing, lab work, and various other technical program management related tasks associated with the cyber security programs."
-},
-{
-"name": "Memorial Sloan Kettering Cancer Center",
-"position": "Correlative Science Associate",
-"url": "https://www.mskcc.org",
-"startDate": "2019-09-01",
-"endDate": "2020-03-01",
-"summary": "Managed twenty-five unique, complex correlative registries, non-therapeutic trials, and correlative studies included in the Prostate Cancer Clinical Trials Consortium (PCCTC)  research portfolio. Developed and implemented improved data management systems and external reporting tools using Excel, VBA, Python 3, SQL, and PowerBI."
-},
-{
-"name": "Hackensack Meridian Health",
-"position": "Biorepository Technologist",
-"url": "https://www.hmh.org",
-"startDate": "2017-06-01",
-"endDate": "2019-04-01",
-"summary": "Managed the acquisition, processing, and handling of over three-thousand surgically resected solid tumor samples destined for storage in the HMH Biorepository. Implemented and administered the BioFortis Labmatrix research database system across our six campus sites. Was the study lead and federal project manager’s point person onsite for our NIH/NCI Clinical Proteomic Tumor Analysis Consortium (CPTAC) Phase III solid tumor collections contract."
-}
-],
-"volunteer": [
-{
-"organization": "Permanent Mission of Saint Kitts and Nevis to the United Nations ",
-"position": "General Assembly Delegation Member",
-"startDate": "2019-09-27",
-"summary": "Active member of the delegation from the Federation of Saint Kitts and Nevis to the United Nations General Assembly in New York.",
-"highlights": [
-"74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.",
-"77th General Assembly meeting the Federation's Prime Minister Dr. Terrance M. Drew."
-]
-}
-],
-"education": [
-{
-"institution": "University of Central Florida",
-"url": "https://ucf.edu/",
-"area": "Biology and Zoology",
-"studyType": "Bachelors of Science",
-"startDate": "2014-09-01",
-"endDate": "2016-05-01"
-},
-{
-"institution": "Rutgers University",
-"studyType": "Certificate",
-"area": "Data Science",
-"startDate": "2020-01-01",
-"endDate": "2020-07-01"
-}
-],
-"awards": [
-{
-"title": "Azure Fundamentals [AZ-900]",
-"date": "2022-02-02",
-"awarder": "Microsoft",
-"summary": "Certification # I401-0816"
-}
-],
-"skills": [
-{
-"name": "Data Science Platforms and Tools",
-"level": "Master",
-"keywords": [
-"Python3",
-"Anaconda",
-"Julia",
-"Pandas",
-"Numpy",
-"Pyenv",
-"Conda",
-"Jupyter",
-"Plotly",
-"Relational database systems",
-"SQL",
-"Postgres",
-"noSQL",
-"MongoDB",
-"AWS RDS",
-"SQLAlchemy",
-"Databricks"
-]
-},
-{
-"name": "Microsoft Office",
-"level": "Master",
-"keywords": [
-"Microsoft 365",
-"OneDrive",
-"Teams",
-"To Do",
-"Bookings",
-"Stream",
-"Visio",
-"PowerPoint",
-"Planner",
-"Power Automate",
-"Power Apps",
-"Project",
-"Access",
-"Outlook",
-"Excel",
-"Word",
-"OneNote",
-"SharePoint",
-"Forms",
-"Lists"
-]
-},
-{
-"name": "Business Intelligence and Dashboarding",
-"level": "Master",
-"keywords": [
-"PowerBI",
-"PowerBI Server",
-"Tableau",
-"Tableau Server",
-"Plotly"
-]
-},
-{
-"name": "Web Development Tools and Security",
-"level": "Master",
-"keywords": [
-"HTML",
-"CSS",
-"JavaScript",
-"SSO",
-"Okta",
-"WordPress"
-]
-}
-],
-"languages": [
-{
-"language": "English",
-"fluency": "Native speaker"
-}
-],
-"interests": [ ],
-"references": [
-{
-"name": "Provided Upon Request",
-"reference": "Please email for details."
-}
-],
-"projects": [
-{
-"name": "ProfitCalc at TE Wire & Cable LLC",
-"description": "Worked with my client to plan and develop Python based AWS cloud hosted calculator application used to determine material margin and profit margin percentages by product using relative inputs from user. This application was created in an effort to modernize, better secure, and organize the application’s data infrastructure and interface from a previously developed VBA based version.",
-"startDate": "2017-02-01",
-"endDate": "2022-01-17",
-"url": "https://www.neherdata.com",
-"type": "Consulting"
-}
-]
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "kendall"
+  },
+  "basics": {
+    "name": "Tyler M. Neher",
+    "label": "Data Scientist and Cybersecurity Professional",
+    "email": "tyler@neherdata.com",
+    "photo": "https://github.com/tylermneher.png",
+    "phone": "732-275-5997",
+    "url": "https://www.tylermneher.me/",
+    "summary": "Cybersecurity professional with a background in data science and software development.",
+    "location": {
+      "address": "106 Secretariat Ct",
+      "postalCode": "NJ 07724",
+      "city": "Tinton Falls",
+      "countryCode": "US",
+      "region": "New Jersey"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tylermneher",
+        "url": "https://www.linkedin.com/in/tylermneher/"
+      },
+      {
+        "network": "GitHub",
+        "username": "tylermneher",
+        "url": "https://github.com/tylermneher"
+      },
+      {
+        "network": "Instagram",
+        "username": "tylermneher",
+        "url": "https://www.instagram.com/tylermneher/"
+      },
+      {
+        "network": "Facebook",
+        "username": "tylermneher",
+        "url": "https://www.facebook.com/tylermneher/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Neher Data Systems",
+      "position": "Owner",
+      "url": "https://www.neherdata.com",
+      "startDate": "2021-01-14",
+      "summary": "Providers of bespoke and customized technology solutions for B2C, B2B, and B2B clients and customers. Multi-jurisdiction and SAM Federally verified contractor of data science, cybersecurity, database engineering, and software development consulting services and solutions. Enterprise inteegrators and MSPs for multiple leading SaaS, PaaS, and IDaaS offerings."
+    },
+    {
+      "name": "AT&T, Inc.",
+      "position": "Senior Cybersecurity",
+      "url": "https://www.att.com",
+      "startDate": "2021-06-14",
+      "endDate": "2022-11-01",
+      "summary": "Responsible for cyber security areas across products, services, infrastructure, networks, and/or applications while providing protection for AT&T, its customers and its vendors/partners. Works with senior team members on various projects relating to the protection of devices, customers, assets, data, information technology, and networks. Supports innovation, strategic planning, technical proof of concepts, testing, lab work, and various other technical program management related tasks associated with the cyber security programs."
+    },
+    {
+      "name": "Memorial Sloan Kettering Cancer Center",
+      "position": "Correlative Science Associate",
+      "url": "https://www.mskcc.org",
+      "startDate": "2019-09-01",
+      "endDate": "2020-03-01",
+      "summary": "Managed twenty-five unique, complex correlative registries, non-therapeutic trials, and correlative studies included in the Prostate Cancer Clinical Trials Consortium (PCCTC)  research portfolio. Developed and implemented improved data management systems and external reporting tools using Excel, VBA, Python 3, SQL, and PowerBI."
+    },
+    {
+      "name": "Hackensack Meridian Health",
+      "position": "Biorepository Technologist",
+      "url": "https://www.hmh.org",
+      "startDate": "2017-06-01",
+      "endDate": "2019-04-01",
+      "summary": "Managed the acquisition, processing, and handling of over three-thousand surgically resected solid tumor samples destined for storage in the HMH Biorepository. Implemented and administered the BioFortis Labmatrix research database system across our six campus sites. Was the study lead and federal project manager’s point person onsite for our NIH/NCI Clinical Proteomic Tumor Analysis Consortium (CPTAC) Phase III solid tumor collections contract."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Permanent Mission of Saint Kitts and Nevis to the United Nations ",
+      "position": "General Assembly Delegation Member",
+      "startDate": "2019-09-27",
+      "summary": "Active member of the delegation from the Federation of Saint Kitts and Nevis to the United Nations General Assembly in New York.",
+      "highlights": [
+        "74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.",
+        "77th General Assembly meeting the Federation's Prime Minister Dr. Terrance M. Drew."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Central Florida",
+      "url": "https://ucf.edu/",
+      "area": "Biology and Zoology",
+      "studyType": "Bachelors of Science",
+      "startDate": "2014-09-01",
+      "endDate": "2016-05-01"
+    },
+    {
+      "institution": "Rutgers University",
+      "studyType": "Certificate",
+      "area": "Data Science",
+      "startDate": "2020-01-01",
+      "endDate": "2020-07-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Azure Fundamentals [AZ-900]",
+      "date": "2022-02-02",
+      "awarder": "Microsoft",
+      "summary": "Certification # I401-0816"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Science Platforms and Tools",
+      "level": "Master",
+      "keywords": [
+        "Python3",
+        "Anaconda",
+        "Julia",
+        "Pandas",
+        "Numpy",
+        "Pyenv",
+        "Conda",
+        "Jupyter",
+        "Plotly",
+        "Relational database systems",
+        "SQL",
+        "Postgres",
+        "noSQL",
+        "MongoDB",
+        "AWS RDS",
+        "SQLAlchemy",
+        "Databricks"
+      ]
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "Master",
+      "keywords": [
+        "Microsoft 365",
+        "OneDrive",
+        "Teams",
+        "To Do",
+        "Bookings",
+        "Stream",
+        "Visio",
+        "PowerPoint",
+        "Planner",
+        "Power Automate",
+        "Power Apps",
+        "Project",
+        "Access",
+        "Outlook",
+        "Excel",
+        "Word",
+        "OneNote",
+        "SharePoint",
+        "Forms",
+        "Lists"
+      ]
+    },
+    {
+      "name": "Business Intelligence and Dashboarding",
+      "level": "Master",
+      "keywords": [
+        "PowerBI",
+        "PowerBI Server",
+        "Tableau",
+        "Tableau Server",
+        "Plotly"
+      ]
+    },
+    {
+      "name": "Web Development Tools and Security",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript", "SSO", "Okta", "WordPress"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Provided Upon Request",
+      "reference": "Please email for details."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ProfitCalc at TE Wire & Cable LLC",
+      "description": "Worked with my client to plan and develop Python based AWS cloud hosted calculator application used to determine material margin and profit margin percentages by product using relative inputs from user. This application was created in an effort to modernize, better secure, and organize the application’s data infrastructure and interface from a previously developed VBA based version.",
+      "startDate": "2017-02-01",
+      "endDate": "2022-01-17",
+      "url": "https://www.neherdata.com",
+      "type": "Consulting"
+    }
+  ]
 }

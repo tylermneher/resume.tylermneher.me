@@ -1,19 +1,57 @@
-name: Render Resume
-on: push
+name: Validate, Render, and Deploy Resume
+
+on:
+  # For a manual deployment
+  workflow_dispatch:
+
+  # For pushes to main or any branch
+  push:
+    branches:
+      - "main"
+      - "*"
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  RenderResume:
+  validate-resume:
+    name: Validate Resume
     runs-on: ubuntu-latest
-    container:
-      image: node:latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm install
-      - run: npx resumed render resume.json --theme kendall
-      - uses: EndBug/add-and-commit@v9
+      - run: npm test
+
+  render-resume:
+    name: Render Resume
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm start
+
+  deploy-resume:
+    name: Deploy Resume to Pages
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          message: Show GitHub Actions logo
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-          add: resume.html
-      - run: mkdir public
-      - run: mv resume.html public/index.html
+          # Upload entire repository
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
