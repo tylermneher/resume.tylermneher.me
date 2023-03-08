@@ -38,6 +38,7 @@ jobs:
 
   deploy-resume:
     name: Deploy Resume to Pages
+    needs: validate-and-render-resume
     runs-on: ubuntu-latest
     environment:
       name: github-pages
