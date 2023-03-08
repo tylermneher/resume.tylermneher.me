@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "resume:test": "resume validate",
-    "resume:start": "resume export --theme jsonresume-theme-kendall --format html",
+    "resume:start": "resume export --theme jsonresume-theme-kendall --format html index.html",
     "resumed:test": "resumed validate",
     "resumed:start": "resumed render --theme jsonresume-theme-kendall --output index.html"
   },
