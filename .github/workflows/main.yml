@@ -34,7 +34,7 @@ jobs:
           npm i
           npm run resume:test
           npm run resume:start
-        working-directory: "."
+        working-directory: "src"
 
   deploy-resume:
     name: Deploy Resume to Pages
