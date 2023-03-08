@@ -27,14 +27,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm resume:test
+      - run: npm run resume:test
 
   render-resume:
     name: Render Resume
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm resume:start
+      - run: npm run resume:start
 
   deploy-resume:
     name: Deploy Resume to Pages
