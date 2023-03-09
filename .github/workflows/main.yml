@@ -17,11 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: check_run
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: kendall
+          theme: jsonresume-theme-kendall
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
@@ -31,14 +31,14 @@ jobs:
           git config --local user.email "tyler+githubactions@neherdata.com"
           git config --local user.name "Tyler M. Neher"
           if [ -n "$(git status --porcelain docs/index.html)" ]; then
-            git add docs/index.html
-            git commit -m "[ci skip] chore(docs/index.html): update resume page"
+            git add index.html
+            git commit -m "[ci skip] chore(index.html): update resume page"
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
           fi
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         if: steps.commit.outputs.exit_code == 0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
