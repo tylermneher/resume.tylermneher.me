@@ -8,7 +8,7 @@
     "email": "tyler@neherdata.com",
     "photo": "https://github.com/tylermneher.png",
     "phone": "732-275-5997",
-    "url": "https://www.tylermneher.me/",
+    "url": "https://resume.tylermneher.me/",
     "summary": "Cybersecurity professional with a background in data science and software development.",
     "location": {
       "address": "106 Secretariat Ct",
@@ -78,6 +78,7 @@
       "organization": "Permanent Mission of Saint Kitts and Nevis to the United Nations ",
       "position": "General Assembly Delegation Member",
       "startDate": "2019-09-27",
+      "url": "https://skn-un.tylermneher.me",
       "summary": "Active member of the delegation from the Federation of Saint Kitts and Nevis to the United Nations General Assembly in New York.",
       "highlights": [
         "74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.",
@@ -108,6 +109,14 @@
       "date": "2022-09-02",
       "awarder": "Microsoft",
       "summary": "Certification # I401-0816"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Azure Fundamentals [AZ-900]",
+      "date": "2022-09-02",
+      "issuer": "Microsoft",
+      "url": "https://www.credly.com/badges/aaf8e8a6-8128-4e17-85e7-a60f7ee217e7/public_url"
     }
   ],
   "skills": [
@@ -191,6 +200,14 @@
     }
   ],
   "projects": [
+    {
+      "name": "NDS Ghost Hunter",
+      "description": "A simple augmented reality mobile application for iOS and Android.",
+      "startDate": "2023-02-12",
+      "endDate": "2023-06-21",
+      "url": "https://apps.apple.com/us/app/nds-ghost-hunter/id1671457267",
+      "type": "Application"
+    },
     {
       "name": "ProfitCalc at TE Wire & Cable LLC",
       "description": "Worked with my client to plan and develop Python based AWS cloud hosted calculator application used to determine material margin and profit margin percentages by product using relative inputs from user. This application was created in an effort to modernize, better secure, and organize the application’s data infrastructure and interface from a previously developed VBA based version.",
