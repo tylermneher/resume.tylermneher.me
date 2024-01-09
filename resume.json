@@ -8,7 +8,7 @@
     "email": "tyler@neherdata.com",
     "photo": "https://github.com/tylermneher.png",
     "phone": "732-275-5997",
-    "url": "https://resume.tylermneher.me/",
+    "url": "https://card.tylermneher.life/",
     "summary": "Cybersecurity professional with a background in data science and software development.",
     "location": {
       "address": "106 Secretariat Ct",
@@ -44,7 +44,7 @@
     {
       "name": "Neher Data Systems",
       "position": "Owner",
-      "url": "https://www.github.com/neherdata",
+      "url": "https://www.neherdata.com",
       "startDate": "2021-01-14",
       "summary": "Providers of bespoke and customized technology solutions for B2C, B2B, and B2B clients and customers. Multi-jurisdiction and SAM Federally verified contractor of data science, cybersecurity, database engineering, and software development consulting services and solutions. Enterprise inteegrators and MSPs for multiple leading SaaS, PaaS, and IDaaS offerings."
     },
@@ -200,6 +200,14 @@
     }
   ],
   "projects": [
+    {
+      "name": "Digital Wallet Contact Card",
+      "description": "A digital contact card deployed as a shareable Pass in Apple Wallet.",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "url": "https://card.tylermneher.life/",
+      "type": "Application"
+    },
     {
       "name": "NDS Ghost Hunter",
       "description": "A simple augmented reality mobile application for iOS and Android.",
