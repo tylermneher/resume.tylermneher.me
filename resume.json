@@ -8,7 +8,7 @@
     "email": "tyler@neherdata.com",
     "photo": "https://github.com/tylermneher.png",
     "phone": "732-275-5997",
-    "url": "https://card.tylermneher.life/",
+    "url": "https://www.tylermneher.me/",
     "summary": "Cybersecurity professional with a background in data science and software development.",
     "location": {
       "address": "106 Secretariat Ct",
@@ -80,10 +80,7 @@
       "startDate": "2019-09-27",
       "url": "https://skn-un.tylermneher.me",
       "summary": "Active member of the delegation from the Federation of Saint Kitts and Nevis to the United Nations General Assembly in New York.",
-      "highlights": [
-        "74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.",
-        "77th General Assembly meeting the Federation's Prime Minister Dr. Terrance M. Drew."
-      ]
+      "highlights": ["74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.", "77th General Assembly meeting the Federation's Prime Minister Dr. Terrance M. Drew."]
     }
   ],
   "education": [
@@ -123,62 +120,17 @@
     {
       "name": "Data Science Platforms and Tools",
       "level": "Master",
-      "keywords": [
-        "Python3",
-        "Anaconda",
-        "Julia",
-        "Pandas",
-        "Numpy",
-        "Pyenv",
-        "Conda",
-        "Jupyter",
-        "Plotly",
-        "Relational database systems",
-        "SQL",
-        "Postgres",
-        "noSQL",
-        "MongoDB",
-        "AWS RDS",
-        "SQLAlchemy",
-        "Databricks"
-      ]
+      "keywords": ["Python3", "Anaconda", "Julia", "Pandas", "Numpy", "Pyenv", "Conda", "Jupyter", "Plotly", "Relational database systems", "SQL", "Postgres", "noSQL", "MongoDB", "AWS RDS", "SQLAlchemy", "Databricks"]
     },
     {
       "name": "Microsoft Office",
       "level": "Master",
-      "keywords": [
-        "Microsoft 365",
-        "OneDrive",
-        "Teams",
-        "To Do",
-        "Bookings",
-        "Stream",
-        "Visio",
-        "PowerPoint",
-        "Planner",
-        "Power Automate",
-        "Power Apps",
-        "Project",
-        "Access",
-        "Outlook",
-        "Excel",
-        "Word",
-        "OneNote",
-        "SharePoint",
-        "Forms",
-        "Lists"
-      ]
+      "keywords": ["Microsoft 365", "OneDrive", "Teams", "To Do", "Bookings", "Stream", "Visio", "PowerPoint", "Planner", "Power Automate", "Power Apps", "Project", "Access", "Outlook", "Excel", "Word", "OneNote", "SharePoint", "Forms", "Lists"]
     },
     {
       "name": "Business Intelligence and Dashboarding",
       "level": "Master",
-      "keywords": [
-        "PowerBI",
-        "PowerBI Server",
-        "Tableau",
-        "Tableau Server",
-        "Plotly"
-      ]
+      "keywords": ["PowerBI", "PowerBI Server", "Tableau", "Tableau Server", "Plotly"]
     },
     {
       "name": "Web Development Tools and Security",
