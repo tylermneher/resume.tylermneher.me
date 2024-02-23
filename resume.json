@@ -154,18 +154,26 @@
   "projects": [
     {
       "name": "Digital Wallet Contact Card",
-      "description": "A digital contact card deployed as a shareable Pass in Apple Wallet.",
+      "description": "A digital business and contact card deployed as a shareable Generic Pass in Apple Wallet. More at https://card.tylermneher.life/",
       "startDate": "2022-01-01",
-      "endDate": "2024-01-01",
+      "endDate": "2024-02-23",
       "url": "https://card.tylermneher.life/",
       "type": "Application"
     },
     {
+      "name": "Embedded Web Maps",
+      "description": "Portfolio of embeded maps from ten different vendors into responsive design websites deployed on their own subdomains. Vendors which have been successfully deployed are Azure Maps, Apple Maps, ArcGIS Maps, AWS Maps, Bing Maps, Google Maps, Mapbox Maps, MapLibre Maps, MapQuest Maps, and TomTom Maps. More at https://maps.neherdata.com/",
+      "startDate": "2021-01-09",
+      "endDate": "2024-02-23",
+      "url": "https://maps.neherdata.com/",
+      "type": "Application"
+    },
+    {
       "name": "NDS Ghost Hunter",
-      "description": "A simple augmented reality mobile application for iOS and Android.",
+      "description": "A simple augmented reality mobile application for iOS and Android. More at https://ghosthunter.neherdata.com/",
       "startDate": "2023-02-12",
-      "endDate": "2023-06-21",
-      "url": "https://apps.apple.com/us/app/nds-ghost-hunter/id1671457267?itsct=apps_box_link&itscg=30200",
+      "endDate": "2024-02-23",
+      "url": "https://ghosthunter.neherdata.com/",
       "type": "Application"
     },
     {
