@@ -102,10 +102,16 @@
   ],
   "awards": [
     {
+      "title": "Azure AI Fundamentals [AI-900]",
+      "date": "2024-05-04",
+      "awarder": "Microsoft",
+      "summary": "Credential ID # E740B04E2B740620"
+    },
+    {
       "title": "Azure Fundamentals [AZ-900]",
       "date": "2022-09-02",
       "awarder": "Microsoft",
-      "summary": "Certification # I401-0816"
+      "summary": "Credential ID # 355C229077997DA"
     }
   ],
   "certificates": [
