@@ -116,16 +116,16 @@
             "summary": "Credential ID # E740B04E2B740620"
         },
         {
-            "title": "Microsoft Azure Fundamentals [AZ-900]",
-            "date": "2022-09-02",
-            "awarder": "Microsoft",
-            "summary": "Credential ID # 355C229077997DA"
-        },
-        {
             "title": "Microsoft AI Skills Challenge April 2024",
             "date": "2024-04-19",
             "awarder": "Microsoft",
             "summary": "Achievement ID # F2V5NMMX"
+        },
+        {
+            "title": "Microsoft Azure Fundamentals [AZ-900]",
+            "date": "2022-09-02",
+            "awarder": "Microsoft",
+            "summary": "Credential ID # 355C229077997DA"
         }
     ],
     "certificates": [
@@ -136,16 +136,16 @@
             "url": "https://learn.microsoft.com/api/credentials/share/en-us/tylermneher/E740B04E2B740620?sharingId=E8796AF58924CF52"
         },
         {
-            "name": "Microsoft Azure Fundamentals [AZ-900]",
-            "date": "2022-09-02",
-            "issuer": "Microsoft",
-            "url": "https://learn.microsoft.com/api/credentials/share/en-us/tylermneher/355C229077997DA?sharingId=E8796AF58924CF52"
-        },
-        {
             "name": "Microsoft AI Skills Challenge April 2024",
             "date": "2024-04-19",
             "issuer": "Microsoft",
             "url": "https://learn.microsoft.com/en-us/users/tylermneher/achievements/f2v5nmmx"
+        },
+        {
+            "name": "Microsoft Azure Fundamentals [AZ-900]",
+            "date": "2022-09-02",
+            "issuer": "Microsoft",
+            "url": "https://learn.microsoft.com/api/credentials/share/en-us/tylermneher/355C229077997DA?sharingId=E8796AF58924CF52"
         }
     ],
     "skills": [
