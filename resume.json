@@ -42,6 +42,13 @@
     },
     "work": [
         {
+            "name": "The Home Depot #0907",
+            "position": "Appliance Specialist",
+            "url": "https://www.homedepot.com/l/West-Long-Branch/NJ/West-Long-Branch/07764/907",
+            "startDate": "2024-04-11",
+            "summary": "Expert in appliance sales and product knowledge, providing information on product features, and knowing related items to sell an entire project. Additionally, expert in providing information regarding and selling the extended service protection. Provider of fast, friendly service to customers and are responsible for actively seeking out customers to assess their needs and provide assistance. Personal skills interacting with customers such as greeting, qualifying, recommending, closing every customer in their department, and knowing how to handle basics in adjacent departments. Maintinance of the in-stock condition of assigned areas, and ensuring that they are clean, shoppable, and safe."
+        },
+        {
             "name": "Neher Data Systems",
             "position": "Consultant",
             "url": "https://www.neherdata.com",
@@ -81,14 +88,6 @@
             "url": "https://green-team.tylermneher.me",
             "summary": "The Green Team works with the Governing Body, Environmental Commission and Sustainable Jersey, a nonprofit organization that provides tools, training and financial incentives to support communities as they pursue sustainability programs. These programs are designed to foster resiliency, reduce waste and improve the environment for future generations.",
             "highlights": ["Appointed on the 16th of April 2024.", "Appointment is for a one-year term."]
-        },
-        {
-            "organization": "Permanent Mission of Saint Kitts and Nevis to the United Nations ",
-            "position": "General Assembly Delegation Member",
-            "startDate": "2019-09-27",
-            "url": "https://skn-un.tylermneher.me",
-            "summary": "Active member of the delegation from the Federation of Saint Kitts and Nevis to the United Nations General Assembly in New York.",
-            "highlights": ["74th General Assembly meeting with the Federation's Prime Minister Dr. Timothy S. Harris.", "77th General Assembly meeting the Federation's Prime Minister Dr. Terrance M. Drew."]
         }
     ],
     "education": [
